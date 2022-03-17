@@ -2,9 +2,9 @@ FROM node:14
 
 RUN  node --version
 
-WORKDIR /ramapp
+WORKDIR /demowebapp
 
-COPY . /ramapp
+COPY . /demowebapp
 
 RUN npm install
 
